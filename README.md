@@ -21,13 +21,13 @@ A modern **full-stack chat application** built with real-time messaging, user au
 - **Authentication**: JWT (JSON Web Tokens)
 - **Deployment**: Ready for hosting on platforms like Vercel, Netlify, or Heroku
   
-License & Terms
+## License & Terms
 
 ⚠️ Important: This project is not open source.
 All rights, including copying, modifying, distributing, or using this project, are reserved by the developer.
 Any usage of this code without explicit permission is strictly prohibited.
 
-Author & Contact
+## Author & Contact
 
 Ram Prashad Mahtao
 Email: rpxingh201@gmail.com
