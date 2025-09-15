@@ -7,7 +7,7 @@ import UserBadgeItem from "./UserBadgeItem";
 import UserListItem from "./UserListItem";
 import Loader from "./Loader";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://full-stack-chat-application-tbwc.onrender.com/";
 
 const UpdateGroupChatModal = ({ fetchAgain, setFetchAgain, fetchAllMessages }) => {
   const [groupChatName, setGroupChatName] = useState("");

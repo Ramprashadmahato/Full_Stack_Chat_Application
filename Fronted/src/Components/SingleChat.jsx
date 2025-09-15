@@ -9,7 +9,7 @@ import { ChatState } from "../../Context/ChatProvider";
 import { toast } from "react-toastify";
 import { io } from "socket.io-client";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://full-stack-chat-application-tbwc.onrender.com/";
 const SOCKET_URL = BACKEND_URL; // Your Socket.IO server URL
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {

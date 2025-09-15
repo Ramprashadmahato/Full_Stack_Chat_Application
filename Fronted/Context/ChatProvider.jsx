@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 // Create context
 const ChatContext = createContext();
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://full-stack-chat-application-tbwc.onrender.com/";
 
 const ChatProvider = ({ children }) => {
   const [user, setUser] = useState(null);
