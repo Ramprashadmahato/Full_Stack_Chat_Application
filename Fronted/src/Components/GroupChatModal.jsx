@@ -6,7 +6,7 @@ import UserListItem from "./UserListItem";
 import Loader from "./Loader";
 import UserBadgeItem from "./UserBadgeItem";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://full-stack-chat-application-tbwc.onrender.com/";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 const GroupChatModal = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);

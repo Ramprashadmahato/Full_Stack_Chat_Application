@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import NotificationBadge, { Effect } from "react-notification-badge";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://full-stack-chat-application-tbwc.onrender.com/";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 const SideDrawer = () => {
   const navigate = useNavigate();
